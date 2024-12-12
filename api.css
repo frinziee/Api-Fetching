@@ -1,0 +1,32 @@
+h1{
+    text-align: center;
+}
+body{
+    background-color:slategray;
+}
+img{
+    height: 150px;
+    width: 150px;
+    margin: auto;
+    display: flex;
+   margin-top: 10px;
+   border-radius: 20px;
+}
+.card{
+    height: 180px;
+    width: 170px;
+    border: solid 1px;
+    border-radius: 20px;
+    box-shadow: 3px 3px 2px black;
+    background-color: antiquewhite;
+}
+#root{
+    display: grid;
+    margin-left: 140px;
+    row-gap: 20px;
+    grid-template-columns: auto auto auto auto;
+    
+}
+.title{
+    text-align: center;
+}
